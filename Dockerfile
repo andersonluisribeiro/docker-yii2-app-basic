@@ -66,6 +66,6 @@ RUN chmod 700 /root/run.sh
 
 CMD ["/root/run.sh"]
 
-VOLUME ["~/Documents/Kitematic/docker-yii2-app-basic/"]
+VOLUME ["/app"]
 
 EXPOSE 80
